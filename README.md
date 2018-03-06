@@ -45,13 +45,13 @@ of the Playfair Cipher. It should be noted however, that the 5x5 matrix describe
 augmented with auxiliary data structures to reduce access times to O(1). For example, the letter
 ‘A’ has a Unicode decimal value of 65. Thus, an int array called rowIndices could store the
 matrix row of a char val at rowIndices[val – 65]. The same principle can be used for columns…
-The encryption / decryption process works on diagraphs as follows:
+The encryption / decryption process works on diagraphs as follows:</p>
 <br><br>
 <img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI.png" align="middle"/>
 <br><br>
 <img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI1.png" align="middle"/>
 <br><br>
-The Playfair Cipher suffers from the following three basic weaknesses that can be exploited to break the cipher, even with a pen and paper:
+<p>The Playfair Cipher suffers from the following three basic weaknesses that can be exploited to break the cipher, even with a pen and paper:
 1. Repeated plain-text digrams will create repeated cipher-text digrams.
 2. Digram frequency counts can reveal the most frequently occurring English digrams.
 3. The most frequently occurring cipher-text letters are likely to be near the most frequent
@@ -60,7 +60,26 @@ English letters, i.e. E, T, A and O in the 5x5 square. This helps to reconstruct
 square.
 We will be exploiting weakness (2) in this assignment. Note that these weaknesses rely on
 repetition and frequency counts and, in the absence of cribs, require enough cipher-text to reveal
-patterns. In practice, this implies that at least 200 characters of cipher-text are available. </p>
+patterns. In practice, this implies that at least 200 characters of cipher-text are available.</p>
+
+#### The Simulated Annealing Algorithm
+<p>Simulated annealing (SA) is an excellent approach for breaking a cipher using a randomly
+generated key. Unlike conventional Hill Climbing algorithms, that are easily side-tracked by
+local optima, SA uses randomization to avoid heuristic plateaux and attempt to find a global
+maxima solution. The following pseudocode shows how simulated annealing can be used break
+a Playfair Cipher. Note that the initial value of the variables temp and transitions can have a
+major impact on the success of the SA algorithm. Both variables control the cooling schedule
+of SA and should be experimented with for best results (see slide 20 of the lecture notes on
+Heuristic Search).</p>
+
+<br><br>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI.png" align="middle"/>
+<br><br>
+
+<p>The generation of a random 25-letter key on line 1 only requires that we shuffle a 25 letter
+alphabet. A simple algorithm for achieving this was published in 1938 by Fisher and Yates.
+The Fisher–Yates Shuffle generates a random permutation of a finite sequence, i.e. it randomly
+shuffles an array key of n elements (indices 0..n-1) as follows:</p>
 
 
 
