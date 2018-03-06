@@ -94,3 +94,16 @@ shuffles an array key of n elements (indices 0..n-1) as follows:</p>
 • Reverse the whole key (2%)<br>
 Note that the semantic network or state space is implicit and that each small change to the 25-
 character key is logically the same as traversing an edge between two adjacent nodes.</p>
+
+<br><br>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI4.png" align="middle"/>
+<br><br>
+
+<br><br>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI5.png" align="middle"/>
+<br><br>
+
+<br><br>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI6.png" align="middle"/>
+<br><br>
+
