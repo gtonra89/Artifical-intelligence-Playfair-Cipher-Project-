@@ -17,8 +17,7 @@ answer will be the correct plain-text, but can give a good approximation that ma
 right answer.</p>
 
 
-## You are required to use the simulated annealing algorithm to break a Playfair Cipher. Your
-## application should have the following minimal set of features:
+## You are required to use the simulated annealing algorithm to break a Playfair Cipher. Your application should have the following minimal set of features:
 
 #### • A menu-driven command line UI that enables a cipher-text source to be specified (a
 file or URL) and an output destination file for decrypted plain-text.
@@ -47,14 +46,11 @@ augmented with auxiliary data structures to reduce access times to O(1). For exa
 ‘A’ has a Unicode decimal value of 65. Thus, an int array called rowIndices could store the
 matrix row of a char val at rowIndices[val – 65]. The same principle can be used for columns…
 The encryption / decryption process works on diagraphs as follows:
-
-
+<br><br>
 <img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI.png" align="middle"/>
-
-
+<br><br>
 <img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI1.png" align="middle"/>
-
-
+<br><br>
 The Playfair Cipher suffers from the following three basic weaknesses that can be exploited to break the cipher, even with a pen and paper:
 1. Repeated plain-text digrams will create repeated cipher-text digrams.
 2. Digram frequency counts can reveal the most frequently occurring English digrams.
