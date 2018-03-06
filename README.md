@@ -49,15 +49,13 @@ matrix row of a char val at rowIndices[val – 65]. The same principle can be us
 The encryption / decryption process works on diagraphs as follows:
 
 
-<img src="https://github.com/gtonra89/DocumentSimilarityProject/blob/master/34524665-39cc66f2-f094-11e7-9bdb-e405f29ece83.PNG" align="middle"/>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI.png" align="middle"/>
 
 
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI1.png" align="middle"/>
 
 
-
-
-The Playfair Cipher suffers from the following three basic weaknesses that can be exploited to
-break the cipher, even with a pen and paper:
+The Playfair Cipher suffers from the following three basic weaknesses that can be exploited to break the cipher, even with a pen and paper:
 1. Repeated plain-text digrams will create repeated cipher-text digrams.
 2. Digram frequency counts can reveal the most frequently occurring English digrams.
 3. The most frequently occurring cipher-text letters are likely to be near the most frequent
