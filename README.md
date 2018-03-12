@@ -73,7 +73,7 @@ of SA and should be experimented with for best results (see slide 20 of the lect
 Heuristic Search).</p>
 
 <br><br>
-<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/readme%20screnshots/ScreenshotAI2.png" align="middle"/>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/readme%20screnshots/SceenshotAI2.png" align="middle"/>
 <br><br>
 
 <p>The generation of a random 25-letter key on line 1 only requires that we shuffle a 25 letter
