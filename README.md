@@ -47,9 +47,9 @@ augmented with auxiliary data structures to reduce access times to O(1). For exa
 matrix row of a char val at rowIndices[val – 65]. The same principle can be used for columns…
 The encryption / decryption process works on diagraphs as follows:</p>
 <br><br>
-<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI.png" align="middle"/>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/readme%20screnshots/ScreenshotAI.png" align="middle"/>
 <br><br>
-<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI1.png" align="middle"/>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/readme%20screnshots/ScreenshotAI1.png" align="middle"/>
 <br><br>
 <p>The Playfair Cipher suffers from the following three basic weaknesses that can be exploited to break the cipher, even with a pen and paper:
 1. Repeated plain-text digrams will create repeated cipher-text digrams.
@@ -73,7 +73,7 @@ of SA and should be experimented with for best results (see slide 20 of the lect
 Heuristic Search).</p>
 
 <br><br>
-<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/SceenshotAI2.png" align="middle"/>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/readme%20screnshots/SceenshotAI2.png" align="middle"/>
 <br><br>
 
 <p>The generation of a random 25-letter key on line 1 only requires that we shuffle a 25 letter
@@ -82,7 +82,7 @@ The Fisher–Yates Shuffle generates a random permutation of a finite sequence, 
 shuffles an array key of n elements (indices 0..n-1) as follows:</p>
 
 <br><br>
-<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI3.png" align="middle"/>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/readme%20screnshots/ScreenshotAI3.png" align="middle"/>
 <br><br>
 
 <p>The method shuffleKey() on line 6 should make the following changes to the key with the frequency given (you can approximate this using Math.random() * 100):<br>
@@ -96,14 +96,14 @@ Note that the semantic network or state space is implicit and that each small ch
 character key is logically the same as traversing an edge between two adjacent nodes.</p>
 
 <br><br>
-<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI4.png" align="middle"/>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/readme%20screnshots/ScreenshotAI4.png" align="middle"/>
 <br><br>
 
 <br><br>
-<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI5.png" align="middle"/>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/readme%20screnshots/ScreenshotAI5.png" align="middle"/>
 <br><br>
 
 <br><br>
-<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/ScreenshotAI6.png" align="middle"/>
+<img src="https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-/blob/master/readme%20screnshots/ScreenshotAI6.png" align="middle"/>
 <br><br>
 
