@@ -1,6 +1,13 @@
 # Artifical-intelligence-Playfair-Cipher-Project-
 Using Simulated Annealing to Break a Playfair Cipher
 
+## Github Link is : 
+    https://github.com/gtonra89/Artifical-intelligence-Playfair-Cipher-Project-
+
+## To Run the Jar File type the following : 
+    For Linux : java -cp playfair.jar ie.gmit.sw.ai.CipherBreaker<br>
+    For Windows(puke) : java –cp ./playfair.jar ie.gmit.sw.ai.CipherBreaker<br>
+
 ## Project Details
 <p>The field of cryptanalysis is concerned with the study of ciphers, having as its objective the
 identification of weaknesses within a cryptographic system that may be exploited to convert
